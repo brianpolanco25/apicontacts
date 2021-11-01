@@ -43,7 +43,7 @@ http://127.0.0.1/apicontacts/contacts
 
 {
     "name" : "John",                              ->   REQUIRED
-    "las_tname" : "Doe",                           ->   REQUIRED
+    "last_name" : "Doe",                           ->   REQUIRED
     "email" : "john@test.com",                    ->   REQUIRED
     "phones" : ["829-000-1111", "809-555-8899"]   ->   REQUIRED
    
