@@ -13,7 +13,7 @@ USE `apicontacts`;
 CREATE TABLE IF NOT EXISTS `contacts` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(50) DEFAULT NULL,
-  `lastname` varchar(50) DEFAULT NULL,
+  `last_name` varchar(50) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
   `phones` text,
   PRIMARY KEY (`id`)
@@ -43,7 +43,7 @@ http://127.0.0.1/apicontacts/contacts
 
 {
     "name" : "John",                              ->   REQUIRED
-    "lastname" : "Doe",                           ->   REQUIRED
+    "las_tname" : "Doe",                           ->   REQUIRED
     "email" : "john@test.com",                    ->   REQUIRED
     "phones" : ["829-000-1111", "809-555-8899"]   ->   REQUIRED
    
